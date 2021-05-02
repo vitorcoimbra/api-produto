@@ -73,7 +73,7 @@ jobs:
         uses: Azure/k8s-deploy@v1.3
         with: 
           manifests: |
-            k8s/appi/deployment.yaml
+            k8s/api/deployment.yaml
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
