@@ -46,8 +46,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            vitorcoimbra/api-bootcamp-produto:latest
-            vitorcoimbra/api-bootcamp-produto:${{github.run_number}}
+            api-bootcamp-produto:latest
+            api-bootcamp-produto:${{github.run_number}}
         
 
       # Runs a single command using the runners shell
